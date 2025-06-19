@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: linear-gradient(135deg, #e1f1ff 0%, #cbe0ff 100%);
+  min-height: 100vh;
+}
+
+@media (max-width: 600px) {
+  .MuiListItem-root {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
